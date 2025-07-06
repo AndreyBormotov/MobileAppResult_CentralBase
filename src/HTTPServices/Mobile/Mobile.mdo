@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="215da6e9-888f-432b-a9f1-44d07f822826">
+  <name>Mobile</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mobile</value>
+  </synonym>
+  <rootURL>Mobile</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="6aba9da1-3f72-4853-b688-580d94cb73f8">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="72bee4d6-8cc7-4db0-90d9-0802ab5c9f7f">
+      <name>ПроверитьДоступность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проверить доступность</value>
+      </synonym>
+      <handler>ПроверитьДоступность</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="e07842c5-56fc-4c82-bccf-a3caf2932afa">
+    <name>CheckOrders</name>
+    <synonym>
+      <key>ru</key>
+      <value>Check orders</value>
+    </synonym>
+    <template>/CheckOrders</template>
+    <methods uuid="9cf5db88-1876-4682-b7aa-4bc8286ed6fb">
+      <name>ПолучитьЗаказы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить заказы</value>
+      </synonym>
+      <handler>ПолучитьЗаказы</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
