@@ -174,7 +174,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.СогласованнаяСкидка</segments>
+            <segments>Объект.КЛ_СогласованнаяСкидка</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -400,7 +400,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.КонтактноеЛицо</segments>
+          <segments>Объект.КЛ_КонтактноеЛицо</segments>
         </dataPath>
         <extendedTooltip>
           <name>КонтактноеЛицоРасширеннаяПодсказка</name>

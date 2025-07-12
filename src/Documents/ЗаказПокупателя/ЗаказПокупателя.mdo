@@ -194,7 +194,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="8ec1fe2b-8e3e-4056-8d5f-e8daa6e26468">
-    <name>КонтактноеЛицо</name>
+    <name>КЛ_КонтактноеЛицо</name>
     <synonym>
       <key>ru</key>
       <value>Контактное лицо</value>
@@ -216,7 +216,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="6fbae527-809b-4b60-9e87-ad6dcc2b1605">
-    <name>СогласованнаяСкидка</name>
+    <name>КЛ_СогласованнаяСкидка</name>
     <synonym>
       <key>ru</key>
       <value>Скидка</value>

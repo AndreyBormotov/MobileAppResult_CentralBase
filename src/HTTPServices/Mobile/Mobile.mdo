@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Mobile</value>
   </synonym>
-  <rootURL>Mobile</rootURL>
+  <rootURL>mobile</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
   <urlTemplates uuid="6aba9da1-3f72-4853-b688-580d94cb73f8">
@@ -25,19 +25,19 @@
     </methods>
   </urlTemplates>
   <urlTemplates uuid="e07842c5-56fc-4c82-bccf-a3caf2932afa">
-    <name>CheckOrders</name>
+    <name>Exchange</name>
     <synonym>
       <key>ru</key>
-      <value>Check orders</value>
+      <value>Exchange</value>
     </synonym>
-    <template>/CheckOrders</template>
+    <template>/exchange</template>
     <methods uuid="9cf5db88-1876-4682-b7aa-4bc8286ed6fb">
-      <name>ПолучитьЗаказы</name>
+      <name>ПолучитьДанные</name>
       <synonym>
         <key>ru</key>
-        <value>Получить заказы</value>
+        <value>Получить данные</value>
       </synonym>
-      <handler>ПолучитьЗаказы</handler>
+      <handler>ПолучитьДанные</handler>
     </methods>
   </urlTemplates>
 </mdclass:HTTPService>

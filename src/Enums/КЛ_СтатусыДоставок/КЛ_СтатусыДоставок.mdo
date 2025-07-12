@@ -5,7 +5,7 @@
     <listType typeId="b3780ab0-9fbc-4f9c-95a9-1fc0c0e69194" valueTypeId="648072df-0059-4403-b6eb-67114895775e"/>
     <managerType typeId="137f93df-8619-4657-84b3-8e68a4445963" valueTypeId="93b76eb5-10b9-4f9d-b5a4-b4fc94eda022"/>
   </producedTypes>
-  <name>СтатусыДоставок</name>
+  <name>КЛ_СтатусыДоставок</name>
   <synonym>
     <key>ru</key>
     <value>Статусы доставок</value>

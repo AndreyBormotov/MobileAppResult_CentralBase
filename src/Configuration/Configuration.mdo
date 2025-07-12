@@ -53,6 +53,7 @@
   <subsystems>Subsystem.Деньги</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
+  <subsystems>Subsystem.Служебная</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
@@ -884,6 +885,7 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
+  <exchangePlans>ExchangePlan.ОбменСМобильным</exchangePlans>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
@@ -1241,6 +1243,7 @@
   <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>
   <enums>Enum.ДополнительныеЗначенияДоступа</enums>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
+  <enums>Enum.КЛ_СтатусыДоставок</enums>
   <enums>Enum.НазначенияВариантовОтчетов</enums>
   <enums>Enum.ОперацииАдминистрированияПрофилейБезопасности</enums>
   <enums>Enum.ПериодОчисткиФайлов</enums>
@@ -1273,7 +1276,6 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
-  <enums>Enum.СтатусыДоставок</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>

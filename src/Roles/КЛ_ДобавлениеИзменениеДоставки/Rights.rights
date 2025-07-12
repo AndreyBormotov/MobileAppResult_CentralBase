@@ -8195,7 +8195,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаказПокупателя.Attribute.СогласованнаяСкидка</name>
+		<name>Document.ЗаказПокупателя.Attribute.КЛ_СогласованнаяСкидка</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -10564,7 +10564,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаказПокупателя.Attribute.КонтактноеЛицо</name>
+		<name>Document.ЗаказПокупателя.Attribute.КЛ_КонтактноеЛицо</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

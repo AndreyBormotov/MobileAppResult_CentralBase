@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e38abc35-e2bf-46d5-87df-99180a6d1f5a" thisNode="89aadc85-e0e3-4f11-8ef9-b788616db868">
+  <producedTypes>
+    <objectType typeId="aa4d4965-be97-4dfa-bacd-0d43a452fbac" valueTypeId="b19cda76-504c-4f48-a000-153d5d7d164c"/>
+    <refType typeId="abbd9d59-7385-4a14-a60f-1f858f27db86" valueTypeId="a1dc8305-f331-47a7-b2aa-c48ab070026c"/>
+    <selectionType typeId="144a12a6-534b-4010-9955-dc0ff0551abb" valueTypeId="081d7a58-e7c5-4248-9e60-86e50666f221"/>
+    <listType typeId="836876d4-d962-42e2-9c16-393406da0347" valueTypeId="2c295bc1-30cc-498c-ae6c-6582f5764b9e"/>
+    <managerType typeId="b9a28a7a-7b18-4082-8cdc-459d5be5411e" valueTypeId="c8ee0b98-f6b2-4150-bb4f-7ff808fd3204"/>
+  </producedTypes>
+  <name>ОбменСМобильным</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильным</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменСМобильным.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменСМобильным.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>36</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Document.ЗаказПокупателя</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bed01afd-bc31-4189-818b-e7bcaf0f6d74">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ExchangePlan>
