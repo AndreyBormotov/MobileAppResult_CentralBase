@@ -23,7 +23,13 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>150</descriptionLength>
   <content>
-    <mdObject>Document.ЗаказПокупателя</mdObject>
+    <mdObject>Catalog.Номенклатура</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.КЛ_Доставка</mdObject>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>

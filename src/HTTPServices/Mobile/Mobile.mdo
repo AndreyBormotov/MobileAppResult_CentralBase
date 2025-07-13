@@ -39,5 +39,14 @@
       </synonym>
       <handler>ПолучитьДанные</handler>
     </methods>
+    <methods uuid="f98e62fe-f075-48fe-b273-ad1217d984f1">
+      <name>ОтправитьДанные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправить данные</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОтправитьДанные</handler>
+    </methods>
   </urlTemplates>
 </mdclass:HTTPService>
