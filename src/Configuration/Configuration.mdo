@@ -698,6 +698,7 @@
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСППовтИсп</commonModules>
+  <commonModules>CommonModule.КЛ_ОбменДанными</commonModules>
   <commonModules>CommonModule.КонструкторФормул</commonModules>
   <commonModules>CommonModule.КонструкторФормулВызовСервера</commonModules>
   <commonModules>CommonModule.КонструкторФормулКлиент</commonModules>
