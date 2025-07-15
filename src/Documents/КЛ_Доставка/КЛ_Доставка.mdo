@@ -204,20 +204,17 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="fcae39ba-5baa-4c15-a1d7-dfb4e8f62529">
-    <name>Фото</name>
+    <name>Фотография</name>
     <synonym>
       <key>ru</key>
-      <value>Фото</value>
+      <value>Фотография</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>ValueStorage</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
